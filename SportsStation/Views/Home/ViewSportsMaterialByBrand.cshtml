@@ -1,0 +1,24 @@
+﻿@model IEnumerable<SportsStation.Models.SportsMaterial>
+
+@{
+    ViewData["Title"] = "ViewSportsMaterialBySportsCategory";
+}
+
+<h1>View Sports Material</h1>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-4">
+            <div class="card h-100 border-primary">
+                <center>
+                    <img src="~/SportsStationPhotos/@item.SportsID@item.Extension" alt="" style="width:100%">
+                </center>
+                <h1> @Html.DisplayFor(modelItem => item.ProductName)</h1>
+                <p class="title"> Price  :$ @Html.DisplayFor(modelItem => item.Price)</p>
+                <p class="title"> Sports Brand : @Html.DisplayFor(modelItem => item.SportsBrand.SportsBrandName)</p>
+                <p class="title"> @Html.DisplayFor(modelItem => item.Detail)</p>
+                <p><a asp-controller="SportsOrders"  asp-action="Create" class="btn btn-primary">Place Order</a></p>
+            </div>
+        </div>
+    }
+</div>
