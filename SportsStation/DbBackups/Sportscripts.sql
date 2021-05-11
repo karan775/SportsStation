@@ -1,11 +1,4 @@
-GO
-INSERT [dbo].[AspNetUserRoles] ([UserId], [RoleId]) VALUES (N'070f7760-7d30-4f57-9f70-d99387334c20', N'4504031b-b1a7-457a-baa5-5f58a2e8c647')
-INSERT [dbo].[AspNetUserRoles] ([UserId], [RoleId]) VALUES (N'5109aac9-941f-4fff-8fb3-c1d19c2816c3', N'4504031b-b1a7-457a-baa5-5f58a2e8c647')
-GO
-INSERT [dbo].[AspNetUsers] ([Id], [UserName], [NormalizedUserName], [Email], [NormalizedEmail], [EmailConfirmed], [PasswordHash], [SecurityStamp], [ConcurrencyStamp], [PhoneNumber], [PhoneNumberConfirmed], [TwoFactorEnabled], [LockoutEnd], [LockoutEnabled], [AccessFailedCount]) VALUES (N'070f7760-7d30-4f57-9f70-d99387334c20', N'login1@sportsstation.com', N'LOGIN1@SPORTSSTATION.COM', N'login1@sportsstation.com', N'LOGIN1@SPORTSSTATION.COM', 1, N'AQAAAAEAACcQAAAAEMn11B2qAfanZ1Sr2s/o0WG7snYUTZH1ve/Isb3muU/N8aO43NtPO1pGsvNFgnsMFg==', N'CVGWA7AS7UEBQEEA67GS2JDSPOKVQ2MU', N'd713d402-4469-4e1e-b9ab-a3ba6cd37b47', NULL, 0, 0, NULL, 1, 0)
-INSERT [dbo].[AspNetUsers] ([Id], [UserName], [NormalizedUserName], [Email], [NormalizedEmail], [EmailConfirmed], [PasswordHash], [SecurityStamp], [ConcurrencyStamp], [PhoneNumber], [PhoneNumberConfirmed], [TwoFactorEnabled], [LockoutEnd], [LockoutEnabled], [AccessFailedCount]) VALUES (N'1eae2fbb-a221-453b-a89b-7b8c42553f83', N'Jassmanak@live.com', N'JASSMANAK@LIVE.COM', N'Jassmanak@live.com', N'JASSMANAK@LIVE.COM', 1, N'AQAAAAEAACcQAAAAEMfOR/NfAXqBvixRCE9Az/JoEGJT5j3oLJKxqgQCLRqi2wKs8SSbNt48dJaPGeiVBw==', N'WARWXDFYTOQUISBY2CVAGFZBHSNOJIB4', N'1d53ceb8-fa63-4646-b090-f8018a9a6877', NULL, 0, 0, NULL, 1, 0)
-INSERT [dbo].[AspNetUsers] ([Id], [UserName], [NormalizedUserName], [Email], [NormalizedEmail], [EmailConfirmed], [PasswordHash], [SecurityStamp], [ConcurrencyStamp], [PhoneNumber], [PhoneNumberConfirmed], [TwoFactorEnabled], [LockoutEnd], [LockoutEnabled], [AccessFailedCount]) VALUES (N'5109aac9-941f-4fff-8fb3-c1d19c2816c3', N'login@sportsstation.com', N'LOGIN@SPORTSSTATION.COM', N'login@sportsstation.com', N'LOGIN@SPORTSSTATION.COM', 0, N'AQAAAAEAACcQAAAAEK/enkZSH1SRn1+Mbrk3lH2rpj6m6JYtlWMGOnmrcGBnlmdfi3TvLo8dOPbcAdPMew==', N'YW6QFATJESAKGR56JDVWQNLVIUALRGES', N'af9766f1-61bd-48e1-b76e-029bbabb9181', NULL, 0, 0, NULL, 1, 0)
-GO
+
 SET IDENTITY_INSERT [dbo].[SportsBrands] ON 
 GO
 INSERT [dbo].[SportsBrands] ([SportsBrandID], [SportsBrandName]) VALUES (1, N'COSCO')
